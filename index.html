@@ -1,0 +1,41 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+
+<div class="home">
+
+  <!-- Instructor -->
+  <h1 class="page-heading">Faculty Members</h1>
+  <div class="member-list">
+    {% for faculty in site.data.faculties %}
+    <div class="member-namecard">
+      <a href="{{ faculty.url }}"> <img src="{{ faculty.img | prepend: site.baseurl }}" class="profile-img"> </a>
+      <a href="{{ faculty.url }}"> <div class="faculty-name">{{faculty.name}}</div> </a>
+      <div class="faculty-title">{{faculty.title}}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- TAs Member -->
+
+  <h1 class="page-heading">Members</h1>
+  <div class="member-list">
+    {% for member in site.data.members %}
+    <div class="member-namecard">
+      <a href="{{ member.url | escape }}"> <img src="{{ member.img | prepend: site.baseurl }}" class="profile-img"> </a>
+      <a href="{{ member.url | escape }}"> <div class="member-name">{{member.name}}</div> </a>
+      <div class="member-title">{{member.title}}</div>
+      <div class="member-tags">
+      {% for tag in member.tags %}
+        <div class="member-tag">{{tag.name}}</div>
+      {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+
+</div>

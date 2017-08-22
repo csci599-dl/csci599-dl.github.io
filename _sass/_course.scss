@@ -1,0 +1,34 @@
+.course-description {
+  width: -webkit-calc(95% - (#{$spacing-unit} / 2));
+  width:         calc(95% - (#{$spacing-unit} / 2));  
+  display:       inline-block;
+  margin-top:    #{$spacing-unit};
+  margin-bottom: #{$spacing-unit};
+}
+
+.cover {
+  max-width:            100%;
+  height:               320px;
+  z-index:              initial;
+  margin-right:         auto;
+  margin-left:          auto;
+  padding-right:        0px;
+  padding-left:         0px;
+  @extend %clearfix;
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right:  $spacing-unit / 2;
+    padding-left:   $spacing-unit / 2;
+  }
+  @include media-query($on-palm) {
+    height:         400px;
+  }
+}
+
+.cover-bg {
+  background-image:     url($cover-img);
+  background-size:      cover;
+  background-repeat:    no-repeat;
+  background-position:  center center;
+}

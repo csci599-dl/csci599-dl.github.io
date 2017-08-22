@@ -2,40 +2,43 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: home
 ---
 
 <div class="home">
 
-  <!-- <!-- Instructor --> -->
-  <!-- <h1 class="page-heading">Faculty Members</h1> -->
-  <!-- <div class="member-list"> -->
-  <!--   {% for faculty in site.data.faculties %} -->
-  <!--   <div class="member-namecard"> -->
-  <!--     <a href="{{ faculty.url }}"> <img src="{{ faculty.img | prepend: site.baseurl }}" class="profile-img"> </a> -->
-  <!--     <a href="{{ faculty.url }}"> <div class="faculty-name">{{faculty.name}}</div> </a> -->
-  <!--     <div class="faculty-title">{{faculty.title}}</div> -->
-  <!--   </div> -->
-  <!--   {% endfor %} -->
-  <!-- </div> -->
-  <!--  -->
-  <!-- <!-- TAs Member --> -->
-  <!--  -->
-  <!-- <h1 class="page-heading">Members</h1> -->
-  <!-- <div class="member-list"> -->
-  <!--   {% for member in site.data.members %} -->
-  <!--   <div class="member-namecard"> -->
-  <!--     <a href="{{ member.url | escape }}"> <img src="{{ member.img | prepend: site.baseurl }}" class="profile-img"> </a> -->
-  <!--     <a href="{{ member.url | escape }}"> <div class="member-name">{{member.name}}</div> </a> -->
-  <!--     <div class="member-title">{{member.title}}</div> -->
-  <!--     <div class="member-tags"> -->
-  <!--     {% for tag in member.tags %} -->
-  <!--       <div class="member-tag">{{tag.name}}</div> -->
-  <!--     {% endfor %} -->
-  <!--     </div> -->
-  <!--   </div> -->
-  <!--   {% endfor %} -->
-  <!-- </div> -->
+  <div class="course-description">
+    {{ site.data.course.description }}
+  </div>
 
+  <!-- Instructor -->
+
+  <div class="instructor-pane">
+    <h1 class="instructor-heading title-line">Instructor</h1>
+
+    {% for faculty in site.data.instructor %}
+    <div class="instructor-namecard center">
+      <a href="{{ faculty.url }}"> <img src="{{ faculty.img | prepend: site.baseurl }}" class="profile-img"> </a>
+      <a href="{{ faculty.url }}"> <div class="faculty-name">{{faculty.name}}</div> </a>
+      <div class="faculty-title">{{faculty.title}}</div>
+      <div class="faculty-title">{{faculty.email}}</div>
+    </div>
+    {% endfor %}
+  </div>
+  
+  <!-- TAs -->
+  <div class="ta-pane">
+    <h1 class="ta-heading title-line">Teaching Assitants</h1>
+
+    <div class="ta-list">
+      {% for ta in site.data.tas %}
+      <div class="ta-namecard">
+        <a href="{{ ta.url | escape }}"> <img src="{{ ta.img | prepend: site.baseurl }}" class="profile-img"> </a>
+        <a href="{{ ta.url | escape }}"> <div class="ta-name">{{ta.name}}</div> </a>
+        <div class="ta-title">{{ta.title}}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 
 </div>

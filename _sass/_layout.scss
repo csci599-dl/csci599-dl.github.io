@@ -13,7 +13,7 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 400;
   line-height: $base-line-height * $base-font-size * 2.25;
   color: $yellow-color;
   letter-spacing: -1px;
@@ -202,6 +202,7 @@
 }
 
 .post-link {
+  font-weight: 300;
   display: block;
   @include relative-font-size(1.5);
 }

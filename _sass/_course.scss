@@ -2,8 +2,8 @@
   width: -webkit-calc(100% - (#{$spacing-unit} / 2));
   width:         calc(100% - (#{$spacing-unit} / 2));  
   display:       inline-block;
-  margin-top:    #{$spacing-unit};
-  margin-bottom: #{$spacing-unit};
+  margin-top:    (#{$spacing-unit} / 2);
+  margin-bottom: (#{$spacing-unit} / 2);
 }
 
 .cover {

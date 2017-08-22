@@ -4,7 +4,8 @@
     <a href="{{ site.affiliation.url }}" >
       <img src="{{site.affiliation.img | prepend: site.baseurl }}" class="header-image" /> 
     </a> 
-    {% assign default_paths = site.pages | map: "path" %}
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% assign default_paths = sorted_pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     
     <a class="site-title" href="{{ "/" | relative_url }}"> {{ site.title | escape }}

@@ -51,113 +51,21 @@ Please **ONLY** use piazza for any general communication including questions. We
 
 	<!-- table body -->
 	<tbody>
+	{% for week in site.data.course.weekly %}
+		{% if week.is_module %}
 		<tr>
-			<td><strong>Week 1</strong> - 8/23</td>
-			<td>Course Introduction / Applications of Deep Learning</td>
-			<td><em>Take-home Entrance HW Out</em></td>
-			<td></td>
+			<td colspan="4">{{ week.topics }}</td>
 		</tr>
+		{% else %}
 		<tr>
-			<td><strong>Week 2</strong> - 8/30</td>
-			<td>Entrance Exam</td>
-			<td></td>
-			<td><em>Take-home Entrance HW <strong>DUE</strong></em></td>
+			<td>{{ week.date }}</td>
+			<td>{{ week.topics }}</td>
+			<td>{{ week.wordload }}</td>
+			<td>{{ week.deliverable }}</td>
 		</tr>
-		<tr class="active">
-			<td colspan="4"><strong>Module 1: Convolutional Neural Network (CNN)</strong></td>
-		</tr>
-		<tr>
-			<td><strong>Week 3</strong> - 9/6</td>
-			<td>Machine Learning 101 + Loss functions and Optimization</td>
-			<td>Attend Ian Goodfellow’s talk (9/5)</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><strong>Week 4</strong> - 9/13</td>
-			<td>Neural Networks + Convolutional Neural Networks </td>
-			<td></td>
-			<td>Course Project Team DUE</td>
-		</tr>
-		<tr>
-			<td><strong>Week 5</strong> - 9/20</td>
-			<td>Training Neural Networks</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><strong>Week 6</strong> - 9/27</td>
-			<td>CNN Architectures + Deep Learning Software</td>
-			<td></td>
-			<td>Assignment 1 DUE</td>
-		</tr>
-		<tr>
-			<td><strong>Week 7</strong> - 10/4</td>
-			<td>In-class Midterm</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr class="active">
-			<td colspan="4"><strong>Module 2: ???</strong></td>
-		</tr>
-		<tr>
-			<td><strong>Week 8</strong> - 10/11</td>
-			<td>Recurrent Neural Networks</td>
-			<td></td>
-			<td>Course Project Proposal DUE</td>
-		</tr>
-		<tr>
-			<td><strong>Week 9</strong> - 10/18</td>
-			<td>Guest Lectures: Xiaodi Hou (TuSimple), Phillip Isola (OpenAI)</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><strong>Week 10</strong> - 10/25</td>
-			<td>Generative Models</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><strong>Week 11</strong> - 11/1</td>
-			<td>Deep Reinforcement Learning</td>
-			<td></td>
-			<td>Assignment 2 DUE</td>
-		</tr>
-		<tr class="active">
-			<td colspan="4"><strong>Module 3: Advanced Topics</strong></td>
-		</tr>
-		<tr>
-			<td><strong>Week 12</strong> - 11/8</td>
-			<td>Advanced topics 1</td>
-			<td></td>
-			<td>Course Project Mid-report</td>
-		</tr>
-		<tr>
-			<td><strong>Week 13</strong> - 11/15</td>
-			<td>Advanced topics 2</td>
-			<td></td>
-			<td>Course Project Mid-report</td>
-		</tr>
-		<tr>
-			<td><strong>Week 14</strong> - 11/22</td>
-			<td>No Lecture(Thanks giving)</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><strong>Week 15</strong> - 11/29</td>
-			<td>Team Project Presentation (4 hours) <strong>Spotlight + Poster</strong></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td><strong>FINAL</strong> </td>
-			<td>NO FINAL</td>
-			<td></td>
-			<td></td>
-		</tr>
+		{% endif %}
+	{% endfor %}
 	</tbody>
-	
 </table>
 
 ## Course Description

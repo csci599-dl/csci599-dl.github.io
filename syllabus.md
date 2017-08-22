@@ -9,9 +9,12 @@ order: 2
   <h1 class="post-title">CSCI 599: Deep Learning and its Applications</h1>
 </header>
 
-# Instructor: Joseph J. Lim 
-
 Fall 2017 / Wednesday / SGM 124 / 5:00 PM - 8:20 PM (Units: 4)
+
+## Staff
+---
+
+# Instructor: Joseph J. Lim 
 
 Office: SAL 214, Office Hour: Wed. 2-3 PM 
 

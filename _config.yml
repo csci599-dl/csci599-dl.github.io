@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: '[CSCI-599] Deep Learning and Its Applications'
+title: 'CSCI-599 Deep Learning'
 email: 'deeplearning-staff-l@usc.edu'
 description: > # this means to ignore newlines until "baseurl:"
   This is the website for CSCI599 Deep Learning Course at University of Southern California
@@ -26,6 +26,10 @@ github_username:  csci599-dl
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+affiliation:
+  img: '/img/usc.png'
+  url: 'http://www.cs.usc.edu/'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,9 +1,14 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
+    <a href="{{ site.affiliation.url }}" >
+      <img src="{{site.affiliation.img | prepend: site.baseurl }}" class="header-image" /> 
+    </a> 
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    
+    <a class="site-title" href="{{ "/" | relative_url }}"> {{ site.title | escape }}
+    </a>
   
     {% if page_paths %}
       <nav class="site-nav">

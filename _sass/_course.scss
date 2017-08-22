@@ -1,6 +1,6 @@
 .course-description {
-  width: -webkit-calc(95% - (#{$spacing-unit} / 2));
-  width:         calc(95% - (#{$spacing-unit} / 2));  
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));  
   display:       inline-block;
   margin-top:    #{$spacing-unit};
   margin-bottom: #{$spacing-unit};
@@ -8,7 +8,7 @@
 
 .cover {
   max-width:            100%;
-  height:               320px;
+  height:               200px;
   z-index:              initial;
   margin-right:         auto;
   margin-left:          auto;

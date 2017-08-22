@@ -15,7 +15,16 @@ Fall 2017 / Wednesday / SGM 124 / 5:00 PM - 8:20 PM (Units: 4)
 
 Office: SAL 214, Office Hour: Wed. 2-3 PM 
 
-(please go to TA OHs for HW related questions)
+
+# Teaching Assistants:
+
+| Hexiang Hu | **Shunsuke Saito** | Youngwoon Lee |
+|:-----:|:------:|:------:|
+| **Artem Molchanov** | **Zeng Huang** | **Sitao Xiang** | 
+| **Te-Lin Wu** | **Shao-Hua Sun (Head TA)** | | 
+
+- TA Office Hours (@ SAL 125): **Tuesday 1-5 pm**
+- Please **ONLY** come to TA OHs for HW related questions
 
 ## Contract
 ---
@@ -51,7 +60,7 @@ Deep Learning (MIT Press) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 | Course project    | 40              |  
 | TOTAL             | 100             |
 
-Extra credit: each assignment (up to 1 point), midterm (up to 2 points), and course project (up to 3 points).
+***Extra credit***: each assignment (up to 1 point), midterm (up to 2 points), and course project (up to 3 points).
 
 #### Assignment Submission Policy
 All assignments need to be submitted in a paper form by 5pm of the due date.

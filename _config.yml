@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is the website for CSCI599 Deep Learning Course at University of Southern California
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: csci599-dl
+#twitter_username: csci599-dl
 github_username:  csci599-dl
 
 google_analytics: "UA-60071442-4"

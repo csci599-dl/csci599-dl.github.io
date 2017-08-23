@@ -14,74 +14,39 @@ Fall 2017 / Wednesday / SGM 124 / 5:00 PM - 8:20 PM (Units: 4)
 ## Staff
 ---
 
-# Instructor: Joseph J. Lim 
+# Instructor: Joseph J. Lim
 
-Office: SAL 214, Office Hour: Wed. 2-3 PM 
+- Office: SAL 214
+- Office Hours: Wed. 2-3 PM (No hw related meetings, please go to TA OHs)
 
 
 # Teaching Assistants:
 
 | Hexiang Hu | **Shunsuke Saito** | Youngwoon Lee |
 |:-----:|:------:|:------:|
-| **Artem Molchanov** | **Zeng Huang** | **Sitao Xiang** | 
-| **Te-Lin Wu** | **Shao-Hua Sun (Head TA)** | | 
+| **Artem Molchanov** | **Zeng Huang** | **Sitao Xiang** |
+| **Te-Lin Wu** | **Shao-Hua Sun (Head TA)** | |
 
 - TA Office Hours (@ SAL 125): **Tuesday 1-5 pm**
-- Please **ONLY** come to TA OHs for HW related questions
 
-## Contract
+## Contact
 ---
 Please **ONLY** use piazza for any general communication including questions. We can’t really think of a good reason to use our staff mailing list or individual staff e-mail addresses.
 
 * Piazza: [https://piazza.com/usc/fall2017/csci599/home](https://piazza.com/usc/fall2017/csci599/home)
 * Staff mailing list (just in case): deeplearning-staff-l@usc.edu
 
-## Course Schedule
----
-
-* Tentative course schedule 
-
-<table class="styled-table">
-	<!-- table head -->
-	<thead>
-		<tr class="active">
-			<th>Date</th>
-			<th>Topics/Activities</th>
-			<th>Readings and Homework</th>
-			<th>Deliverable/Due Dates</th>
-		</tr>		
-	</thead>
-
-	<!-- table body -->
-	<tbody>
-	{% for week in site.data.course.weekly %}
-		{% if week.is_module %}
-		<tr>
-			<td colspan="4">{{ week.topics }}</td>
-		</tr>
-		{% else %}
-		<tr>
-			<td>{{ week.date }}</td>
-			<td>{{ week.topics }}</td>
-			<td>{{ week.wordload }}</td>
-			<td>{{ week.deliverable }}</td>
-		</tr>
-		{% endif %}
-	{% endfor %}
-	</tbody>
-</table>
-
 ## Course Description
 ---
-Recently, many AI-related problems have seen great improvements – for example, from image search, to machine translations, to self-driving, and to medical applications. Our goal is to guide students to get familiar with these recent cutting-edge deep learning (DL) advances in computer vision, natural language processing, and robotics. Through this course, students will gain the basic understanding of DL algorithms, and acquire practical experience in applying DL techniques to a variety of problems how to setup and solve problems involving deep learning techniques. The course will include a couple of practical assignments and a final course project. For the final course project, students will be encouraged to pick their own topics, but can also select from a  provided list of projects.
+Recently, many AI-related problems have seen great improvements – for example, from image search, to machine translations, to self-driving, and to medical applications. Our goal is to guide students to get familiar with these recent cutting-edge deep learning (DL) advances in computer vision, natural language processing, and robotics. Through this course, students will gain the basic understanding of DL algorithms, and acquire practical experience in applying DL techniques to a variety of problems. The course will include a couple of practical assignments and a final course project. For the final course project, students will be encouraged to pick their own topics, but can also select from a  provided list of projects.
 
-#### Prerequeiste(s):
+#### Prerequisite(s)
 1. Proficiency in Python
 2. College Calculus, Linear Algebra
 3. Probability and Statistics
 4. Equivalent knowledge of CSCI 567 (Machine Learning)
 
-#### Required Readings and Supplementary Materials:
+#### Required Readings and Supplementary Materials
 Deep Learning (MIT Press) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Free online version is available at [Here](http://www.deeplearningbook.org/)
 
 #### Description and Assessment of Assignments
@@ -89,13 +54,12 @@ Deep Learning (MIT Press) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 
 #### Grading Breakdown
 
-| Entry             | % of grade      | 
+| Entry             | % of grade      |
 |:-----------------:|:---------------:|
-| Participation     | 5               |
-| Assignment #1     | 15              | 
-| Assignment #2     | 15              | 
+| Assignment #1     | 15              |
+| Assignment #2     | 15              |
 | Midterm           | 25              |
-| Course project    | 40              |  
+| Course project    | 45              |
 | TOTAL             | 100             |
 
 ***Extra credit***: each assignment (up to 1 point), midterm (up to 2 points), and course project (up to 3 points).

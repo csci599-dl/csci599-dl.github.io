@@ -31,7 +31,8 @@ Fall 2017 / Wednesday / SGM 124 / 5:00 PM - 8:20 PM (Units: 4)
 
 ## Contact
 ---
-Please **ONLY** use piazza for any general communication including questions. We can’t really think of a good reason to use our staff mailing list or individual staff e-mail addresses.
+**Please use piazza for any general communication including questions.** 
+We can’t really think of a good reason to use our staff mailing list or individual staff e-mail addresses.
 
 * Piazza: [https://piazza.com/usc/fall2017/csci599/home](https://piazza.com/usc/fall2017/csci599/home)
 * Staff mailing list (just in case): deeplearning-staff-l@usc.edu

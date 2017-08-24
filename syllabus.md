@@ -21,11 +21,12 @@ Fall 2017 / Wednesday / SGM 124 / 5:00 PM - 8:20 PM (Units: 4)
 
 
 # Teaching Assistants:
-
-| Hexiang Hu | **Shunsuke Saito** | Youngwoon Lee |
+<!--
+| Hexiang Hu | **Zeng Huang** | Youngwoon Lee |
 |:-----:|:------:|:------:|
-| **Artem Molchanov** | **Zeng Huang** | **Sitao Xiang** |
-| **Te-Lin Wu** | **Shao-Hua Sun (Head TA)** | |
+| **Artem Molchanov** | **Shunsuke Saito** | **Shao-Hua Sun** |
+| **Te-Lin Wu** | **Sitao Xiang** | |
+-->
 
 - TA Office Hours (@ SAL 125): **Tuesday 1-5 pm**
 

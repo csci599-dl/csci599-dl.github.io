@@ -32,7 +32,7 @@ Fall 2017 / Wednesday / SGM 124 / 5:00 PM - 8:20 PM (Units: 4)
 
 ## Contact
 ---
-**Please use piazza for any general communication including questions.** 
+**Please use piazza for any general communication including questions.**
 We can’t really think of a good reason to use our staff mailing list or individual staff e-mail addresses.
 
 * Piazza: [https://piazza.com/usc/fall2017/csci599/home](https://piazza.com/usc/fall2017/csci599/home)
@@ -66,9 +66,11 @@ Deep Learning (MIT Press) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
 
 ***Extra credit***: each assignment (up to 1 point), midterm (up to 2 points), and course project (up to 3 points).
 
+<!--
 #### Assignment Submission Policy
 All assignments need to be submitted in a paper form by 5pm of the due date.
+-->
 
-#### Additional Policies
+#### Late Days Policy
 There will be **a total of 5 late days** for the entire semester, to be used in integer amounts and distributed as the student sees fit. Any exception needs to be discussed within the first 2 weeks of the semester (no exception otherwise). Note that there is **no late day for the final course project presentation**.
 

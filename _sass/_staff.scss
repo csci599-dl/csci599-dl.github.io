@@ -6,9 +6,6 @@
   border-style:   solid;
   border-radius:  50%;
   border-color:   $red-color-dark;
-  @include media-query($on-palm) {
-    display: none;
-  }
 }
 
 
@@ -17,12 +14,20 @@
   float: right;
   width: -webkit-calc(80% - (#{$spacing-unit} / 2));
   width:         calc(80% - (#{$spacing-unit} / 2));
+  @include media-query($on-laptop) {
+    margin-left:   0;
+    margin-top:    (#{$spacing-unit} / 2);
+    text-align:    center;
+    float:         left;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
   @include media-query($on-palm) {
     margin-left:   0;
     margin-top:    (#{$spacing-unit} / 2);
-    text-align:    left;
-    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-    width:         calc(70% - (#{$spacing-unit} / 2));
+    text-align:    center;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -39,9 +44,13 @@
   margin-top:    #{$spacing-unit};
   display:       inline-block;
   text-align:    center;
+  padding-left:  5px; 
+  padding-right: 5px; 
   @include media-query($on-palm) {
     margin-top:    (#{$spacing-unit} / 2);
     text-align:    left;
+    padding-left:  5px; 
+    padding-right: 5px; 
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
   }
@@ -69,12 +78,19 @@
   margin-top:     #{$spacing-unit};
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width:         calc(20% - (#{$spacing-unit} / 2));
+  @include media-query($on-laptop) {
+    margin-left:   0;
+    margin-top:    (#{$spacing-unit} / 2);
+    text-align:    center;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+  }
   @include media-query($on-palm) {
     margin-left:   0;
     margin-top:    (#{$spacing-unit} / 2);
-    text-align:    left;
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    text-align:    center;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
   }
 }
 
@@ -82,6 +98,9 @@
   margin-left: #{$spacing-unit};
   @include relative-font-size(1.25);
   font-weight:  400;
+  @include media-query($on-laptop) {
+    margin-left: 0;
+  }
   @include media-query($on-palm) {
     margin-left:   0;
     margin-top:    (#{$spacing-unit} / 2);
@@ -98,10 +117,15 @@
   margin-top:    #{$spacing-unit};
   display:       inline-block;
   text-align:    center;
+  @include media-query($on-laptop) {
+    float: none;
+    margin-left: 0;
+  }
   @include media-query($on-palm) {
+    float:         none;
     margin-left:   0;
     margin-top:    (#{$spacing-unit} / 2);
-    text-align:    left;
+    text-align:    center;
     width: -webkit-calc(95% - (#{$spacing-unit} / 2));
     width:         calc(95% - (#{$spacing-unit} / 2));
   }

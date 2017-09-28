@@ -20,7 +20,10 @@ Please see below for executing a virtual environment.
 ```shell
 cd assignment1
 sudo pip install virtualenv # If you didn't install it
-virtualenv /your/path/to/the/virtual/env
+virtualenv /your/path/to/the/virtual/env 
+## If you are using Python3, replace the above commend with following one: 
+# virtualenv -p python3 /your/path/to/the/virtual/env 
+
 source  /your/path/to/the/virtual/env/bin/activate
 pip install -r requirements.txt  # Install dependencies
 # Note that this does NOT install TensorFlow,

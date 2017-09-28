@@ -21,7 +21,7 @@ Please see below for executing a virtual environment.
 cd assignment1
 sudo pip install virtualenv # If you didn't install it
 virtualenv /your/path/to/the/virtual/env 
-## If you are using Python3, replace the above commend with following one: 
+## If you are using Python3, replace the above command with following one: 
 # virtualenv -p python3 /your/path/to/the/virtual/env 
 
 source  /your/path/to/the/virtual/env/bin/activate

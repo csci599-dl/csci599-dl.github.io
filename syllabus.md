@@ -16,7 +16,7 @@ Fall 2017 / Wednesday / SGM 124 / 5:00 PM - 8:20 PM (Units: 4) / [PDF](http://we
 
 # Instructor: Joseph J. Lim
 
-- Office: SAL 214
+- Office: SAL 244
 - Office Hours: Wed. 2-3 PM (No hw related meetings, please go to TA OHs)
 
 
